@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Property.OnlineProperty"
+             Title="Онлайн-агентство недвижимости"
+             >
+    <ContentPage.Resources>
+        <StyleSheet Source="Style.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>        
+        <ScrollView>            
+            <StackLayout>                
+                <Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0" Grid.Row="0">
+                        <Image Source="one.jpg" Margin="10,10,10,0" />
+                        <Label Text="2-комн. квартира, 48,53 м²" Margin="10,0,0,0" FontAttributes="Bold,Italic" FontSize="20"/>
+                        <Label x:Name="Cost" Text="1000000" Margin="5,0,0,0" FontSize="20"/>
+                        <Button  Text="Подробнее" Clicked="Button_Clicked_5"/>
+                        <Button  Text="Купить" Clicked="Button_Clicked"/>
+                </StackLayout>
+                    <StackLayout  Grid.Column="1" Grid.Row="0">
+                        <Image Source="two.jpg" Margin="10,10,10,0" />
+                        <Label Text="2-комн. квартира, 42,9 м²" Margin="5,0,0,0" FontAttributes="Bold,Italic" FontSize="20"/>
+                        <Label x:Name="Cost1" Text="1000000" Margin="5,0,0,0"  FontSize="20"/>
+                        <Button  Text="Подробнее" Clicked="Button_Clicked_6"/>
+                        <Button  Text="Купить" Clicked="Button_Clicked_1"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="1">
+                        <Image Source="three.jpg" Margin="10,10,10,0"  />
+                        <Label Text="1-комн. квартира, 46,4 м²" Margin="10,0,0,0" FontAttributes="Bold,Italic" FontSize="20"/>
+                        <Label x:Name="Cost2" Text="1000000" Margin="5,0,0,0"  FontSize="20"/>
+                        <Button  Text="Подробнее" Clicked="Button_Clicked_7"/>
+                        <Button  Text="Купить" Clicked="Button_Clicked_2"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="1">
+                        <Image Source="four.jpg" Margin="10,10,10,0"  />
+                        <Label Text="3-комн. квартира, 57,7 м²" Margin="5,0,0,0" FontAttributes="Bold,Italic" FontSize="20"/>
+                        <Label x:Name="Cost3" Text="1000000" Margin="5,0,0,0"  FontSize="20"/>
+                        <Button  Text="Подробнее" Clicked="Button_Clicked_8"/>
+                        <Button  Text="Купить" Clicked="Button_Clicked_3"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="2">
+                        <Image Source="five.jpg" Margin="10,10,10,0"  />
+                        <Label Text="3-комн. квартира, 57,5 м²" Margin="10,0,0,0" FontAttributes="Bold,Italic" FontSize="20"/>
+                        <Label x:Name="Cost4" Text="1000000" Margin="10,0,0,0" FontSize="20"/>
+                        <Button  Text="Подробнее" Clicked="Button_Clicked_9"/>
+                        <Button Text="Купить" Clicked="Button_Clicked_4"/>
+                    </StackLayout>
+                </Grid>                
+            </StackLayout>           
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

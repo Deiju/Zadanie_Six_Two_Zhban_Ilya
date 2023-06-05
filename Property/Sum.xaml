@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Property.Sum"
+             Title="Расчет суммы оплаты">
+    <ContentPage.Resources>
+        <StyleSheet Source="Style.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label StyleClass="Label-one" Text="Цена"  HorizontalOptions="Center"/>
+            <Label x:Name="cena" Text="" FontSize="20" HorizontalOptions="Center"/>
+            <Label StyleClass="Label-one" Text="Вид оплаты"  HorizontalOptions="Center"/>
+            <Label x:Name="oplata" Text="" FontSize="20" HorizontalOptions="Center"/>
+            <Label StyleClass="Label-one" Text="Срок оплаты"  HorizontalOptions="Center"/>
+            <Label x:Name="srok" Text="" FontSize="20" HorizontalOptions="Center"/>
+            <Button Text="Рассчитать" Clicked="Button_Clicked"/>
+            <Button Text="Назад" Clicked="Button_Clicked_1"/>
+            <Button Text="Подробнее" Clicked="Button_Clicked_2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

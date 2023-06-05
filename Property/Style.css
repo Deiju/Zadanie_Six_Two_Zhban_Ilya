@@ -1,0 +1,17 @@
+﻿button {
+    border-radius: 20;
+    border-width: 1;
+    border-color: mediumvioletred;
+    background-color: white;
+    height: 40;
+    margin: 10,-10,10,0;
+}
+^contentpage{
+    background-color:aquamarine;
+}
+.Label-one{
+    font-style:italic;
+    font-size:22;
+    text-align:center;
+    background-color:yellow;
+}
